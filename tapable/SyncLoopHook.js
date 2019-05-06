@@ -1,6 +1,6 @@
 // 如果其中某一个函数返回结果为true，循环调用该函数直到返回false
 class SyncLoopHook {
-    constructor (...args) {
+    constructor (args) {
         this.tasks = []
         this.argsLength = args.length
     }

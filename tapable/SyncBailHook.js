@@ -1,6 +1,6 @@
 // call后,如果tap的函数返回值为true，则终止后面的调用
 class SyncBailHook {
-    constructor (...args) {
+    constructor (args) {
         this.tasks = []
         this.argsLength = args.length
     }

@@ -1,6 +1,6 @@
 // 调用call后,上一个函数调用的结果传入下一个函数
 class SyncWaterfallHook {
-    constructor (...args) {
+    constructor (args) {
         this.tasks = []
         this.argsLength = args.length
     }

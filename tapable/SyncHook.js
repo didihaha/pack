@@ -1,6 +1,6 @@
 // 调用call后tap传入的函数依次执行
 class SyncHook {
-    constructor (...args) {
+    constructor (args) {
         this.tasks = []
         this.argsLength = args.length
     }
