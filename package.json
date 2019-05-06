@@ -1,5 +1,18 @@
 {
   "dependencies": {
+    "@babel/generator": "^7.4.4",
+    "@babel/traverse": "^7.4.4",
+    "@babel/types": "^7.4.4",
+    "babylon": "^6.18.0",
     "tapable": "^1.1.3"
+  },
+  "name": "pack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/didihaha/pack.git",
+  "author": "didihaha",
+  "license": "MIT",
+  "bin": {
+    "pack": "./bin/pack.js"
   }
 }
